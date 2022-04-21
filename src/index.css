@@ -1,6 +1,7 @@
 body {
   margin: 0;
   background-color: #021b04;
+  position: absolute;
 }
 body::after {
   content: "";

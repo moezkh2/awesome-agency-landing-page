@@ -3,6 +3,7 @@ import logo from './logo.svg'
 import underlineImg from './underline.png'
 import mainImg from './mainImg.png'
 import ourClients from './ourClients.png'
+import projectImg from './projectImg.png'
 
 
 ///////////////////////////navBar/////////////////////////
@@ -126,6 +127,74 @@ margin-left: 1.75rem;
 font-size: 1rem;
 @media screen and (max-width: 768px) {
 	display: none;	
+}
+`
+///////////////////////////Projects//////////////////////////
+
+export const ProjectsRapper = styled.div`
+margin-top: 7%;
+display: grid;
+grid-template-columns: 33% 1fr 33%;
+grid-template-rows: auto repeat(11, [col] 8vh) ;
+align-items: center;
+@media screen and (max-width: 768px) {
+	grid-template-columns: 1fr;
+}
+
+`
+export const ProjectsTitle = styled.div`
+font-family: 'Aeonik';
+color: #ECF9E8;
+font-size: 4.5vw;
+grid-column: 1/4;
+margin-left: 2%;
+margin-bottom: 2%;
+`
+
+export const ProjectsHr = styled.hr`
+height:0.1px;
+width:90%;
+border-width:0;
+background-color:rgba(227, 255, 230, 0.3);
+grid-column: 1/4;
+@media screen and (max-width: 768px) {
+	width:100%;	
+}
+`
+export const ProjectNumb = styled.div`
+font-family: 'Aeonik';
+font-size: 1.5rem;
+color: #ECF9E8;
+margin-left: 20%;
+@media screen and (max-width: 768px) {
+	margin-left: 2%;
+}
+`
+
+export const ProjectDesc = styled.div`
+font-size: 0.9rem;
+font-family: 'Aeonik';
+grid-column: 2;
+color: #ECF9E8;
+margin: 2%;
+@media screen and (max-width: 768px) {
+	grid-column: 1;
+	margin: 2%;
+}
+`
+
+export const ProjectImg = styled.img.attrs(props => (
+	{
+		src: projectImg,
+		alt: 'project image'
+	}
+))`
+width: 85%;
+grid-column: 3;
+grid-row: 5 ;
+z-index:1;
+@media screen and (max-width: 768px) {
+	display: none;
 }
 `
 
