@@ -55,7 +55,7 @@ border-image-slice: 1;
 `
 
 export const MainTitle = styled.div`
-font-family: 'Aeonik';
+font-family: system-ui;
 color :#ECF9E8;
 font-size: 2.2rem;
 margin: 1.75rem ;
@@ -106,8 +106,7 @@ margin: 1.75rem;
 `
 
 export const Decription = styled.p`
-font-family: 'Aeonik';
-font-size: rem;
+font-family: system-ui;
 color: #ECF9E8;
 margin-left: 1.75rem;
 line-height: 150%;
@@ -143,7 +142,7 @@ align-items: center;
 
 `
 export const ProjectsTitle = styled.div`
-font-family: 'Aeonik';
+font-family: system-ui;
 color: #ECF9E8;
 font-size: 4.5vw;
 grid-column: 1/4;
@@ -162,7 +161,7 @@ grid-column: 1/4;
 }
 `
 export const ProjectNumb = styled.div`
-font-family: 'Aeonik';
+font-family: system-ui;
 font-size: 1.5rem;
 color: #ECF9E8;
 margin-left: 20%;
@@ -173,7 +172,7 @@ margin-left: 20%;
 
 export const ProjectDesc = styled.div`
 font-size: 0.9rem;
-font-family: 'Aeonik';
+font-family: system-ui;
 grid-column: 2;
 color: #ECF9E8;
 margin: 2%;
